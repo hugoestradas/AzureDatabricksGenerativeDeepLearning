@@ -1,5 +1,6 @@
 import numpy as np
 import keras
+
 from keras.datasets import cifar10
 from keras.models import Sequential, model_from_json
 from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPool2D
