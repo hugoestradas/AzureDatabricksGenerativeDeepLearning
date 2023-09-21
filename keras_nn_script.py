@@ -23,7 +23,7 @@ cifar10_class_names = {
 
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
-""" show class images
+"""
 import matplotlib.pyplot as plt
 
 for i in range(10):
