@@ -78,7 +78,9 @@ model.save_weights('model_weights.h5')
 storageAccountName = "techcommunity"
 storageAccountAccessKey = "3fmvYhF+1wdZIlYlZYTcyR4Hosib+7kKEl+axFF/NywuUqLJd0dAQiC1hAZpfKCVkWGpJoSs+IT8+AStz42mbg=="
 blobContainerName = "images"
+
 mountPoint = "/mnt/data/"
+
 if not any(mount.mountPoint == mountPoint for mount in dbutils.fs.mounts()):
   try:
     dbutils.fs.mount(
